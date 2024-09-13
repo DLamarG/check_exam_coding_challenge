@@ -9,6 +9,7 @@ For example:
 
     Correct answer    |    Student's answer   |   Result         
  ---------------------|-----------------------|-----------
+ 
  ["a", "a", "b", "b"]   ["a", "c", "b", "d"]  →     6
  
  ["a", "a", "c", "b"]   ["a", "a", "b", "" ]  →     7
