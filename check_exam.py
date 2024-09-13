@@ -10,3 +10,6 @@ def check_exam(arr1,arr2):
     return score if score > 0 else 0
   
 
+print(check_exam())
+print(check_exam())
+print(check_exam())
