@@ -10,6 +10,7 @@ def check_exam(arr1,arr2):
     return score if score > 0 else 0
   
 
-print(check_exam())
-print(check_exam())
-print(check_exam())
+print(check_exam(["a", "a", "b", "b"], ["a", "c", "b", "d"])) #6
+print(check_exam(["a", "a", "c", "b"], ["a", "a", "b",  ""])) #7
+print(check_exam(["a", "a", "b", "c"], ["a", "a", "b", "c"])) #16
+print(check_exam(["b", "c", "b", "a"], ["",  "a", "a", "c"])) #0
