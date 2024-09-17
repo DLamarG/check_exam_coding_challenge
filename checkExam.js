@@ -17,5 +17,5 @@ function checkExam(array1, array2){
 
 console.log(checkExam(["a", "a", "b", "b"], ["a", "c", "b", "d"])) // score = 6
 console.log(checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""])) // score = 7
-console.log(checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"])) // 16
-console.log(checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"])) // 0
+console.log(checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"])) // score = 16
+console.log(checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"])) // score = 0
