@@ -1,4 +1,4 @@
-function checkExam(arr1, arr2){
+function checkExam(array1, array2){
     let score = 0;
     let count = 0;
     for(let num of array1){
