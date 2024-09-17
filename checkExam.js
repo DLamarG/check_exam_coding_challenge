@@ -1,5 +1,5 @@
 function checkExam(arr1, arr2){
-
+ console.log(arr1)
 }
 
 
