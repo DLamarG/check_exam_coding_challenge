@@ -1,5 +1,16 @@
 function checkExam(arr1, arr2){
- console.log(arr1)
+    let score = 0;
+    let count = 0;
+    for(let num of array1){
+      if(array1[count] == array2[count] && array2[count] != ""){
+        score += 4
+      }
+      if(array1[count] != array2[count] && array2[count] != ""){
+        score -= 1
+      }
+      count++
+    }
+    return score >= 0 ? score : 0
 }
 
 
